@@ -7610,19 +7610,19 @@
     ]
   },
   "packageFolders": {
-    "/home/greg/.nuget/packages/": {}
+    "C:\\Users\\grego\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/greg/workspace/quantum-key-exchange-cracking-example/ShorsAlgorithm/ShorsAlgorithm.csproj",
+      "projectUniqueName": "D:\\workspace\\quantum-key-exchange-cracking-example\\ShorsAlgorithm\\ShorsAlgorithm.csproj",
       "projectName": "ShorsAlgorithm",
-      "projectPath": "/home/greg/workspace/quantum-key-exchange-cracking-example/ShorsAlgorithm/ShorsAlgorithm.csproj",
-      "packagesPath": "/home/greg/.nuget/packages/",
-      "outputPath": "/home/greg/workspace/quantum-key-exchange-cracking-example/ShorsAlgorithm/obj/",
+      "projectPath": "D:\\workspace\\quantum-key-exchange-cracking-example\\ShorsAlgorithm\\ShorsAlgorithm.csproj",
+      "packagesPath": "C:\\Users\\grego\\.nuget\\packages\\",
+      "outputPath": "D:\\workspace\\quantum-key-exchange-cracking-example\\ShorsAlgorithm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/greg/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\grego\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -7640,7 +7640,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net6.0": {
@@ -7691,12 +7697,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
